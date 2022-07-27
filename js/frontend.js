@@ -118,8 +118,7 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
   });
-
-
+  
   $(function(){
     $("#header").load("header.html"); 
     $("#footer").load("footer.html"); 
