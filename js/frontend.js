@@ -1,3 +1,13 @@
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/62dff05f37898912e95fbee2/1g8tc5u3t';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+
 particlesJS("particles-js", {
     "particles": {
       "number": {
@@ -108,3 +118,11 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
   });
+
+
+  $(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+  });
+
+
