@@ -2,6 +2,11 @@
    height:100vh;
    min-height: -webkit-fill-available;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .my-icon{
    height: 50px !important;
    width: 50px !important;
