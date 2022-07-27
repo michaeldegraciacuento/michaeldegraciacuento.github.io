@@ -221,4 +221,11 @@
 canvas {
     display: block;
     vertical-align: bottom;
-  }
+}
+.title-design{
+  text-decoration: underline;
+}
+.img-bd{
+  width: 400px;
+  height: 400px;
+}
