@@ -124,4 +124,12 @@ particlesJS("particles-js", {
     $("#footer").load("footer.html"); 
   });
 
+function aos_init() {
+  AOS.init({
+  });
+}
+$(window).on('load', function() {
+    aos_init();
+ 
+});
 
